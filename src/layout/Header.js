@@ -28,7 +28,7 @@ function Header() {
     const username = userInfo?.username;
 
     return (
-        <header className="flex justify-between pt-5 pb-5">
+        <header className="flex bg-gray-500 justify-between pt-5 pb-5">
         <Link to='/' className="logo text-bold ml-3">BlogIt</Link>
             <nav className="flex space-x-2 mr-3">
                 {
